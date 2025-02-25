@@ -17,7 +17,7 @@ router.route('/').post((req,res)=>{
 
       var mailOptions = {
         from: process.env.EMAIL_USER, 
-        to: process.env.EMAIL_USER, 
+        to: process.env.EMAIL_TO_USER, 
         subject: `Contact Details ${name}`,
         html: `<h1>Contact Details</h1>
            <p> I am reaching out to contact on the availability of rental space</p>
