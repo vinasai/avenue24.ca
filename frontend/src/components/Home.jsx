@@ -6,6 +6,8 @@ import pic2 from "../assets/img2.jpg"
 import pic3 from "../assets/img3.jpg"
 import pic4 from "../assets/img4.jpg"
 import Slider from "./Slider"
+import MovingSlider from './MovingSlider'
+
 const Home = () => {
   return (
     <>
@@ -95,6 +97,19 @@ const Home = () => {
         className="w-full h-96 object-cover rounded-lg shadow-lg"
       />
     </div>
+  </div>
+</section>
+
+<section className="py-12 bg-white">
+  <div className="max-w-6xl mx-auto text-center">
+    <h2 className="text-4xl font-bold text-gray-800 mb-6">
+      Experience Our Space: A Glimpse into Your Future Venue
+    </h2>
+    <p className="text-gray-600 mb-8">
+      Take a look at our real spaces, designed to cater to your needs. Whether for tuition, creative work, dance, or relaxation, 
+      our spaces are crafted for the perfect experience.
+    </p>
+    <MovingSlider />
   </div>
 </section>
 
