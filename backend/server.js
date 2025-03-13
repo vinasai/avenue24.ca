@@ -7,12 +7,12 @@ dotenv.config();
 const PORT =  process.env.PORT;
 
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: 'https://avenue24.ca'
   }));
   
 app.use(express.json());
 
-app.use('/contact', require('./contactus'));
+app.use('/api/contact', require('./contactus'));
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);

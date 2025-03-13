@@ -24,7 +24,7 @@ const ContactUs = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://avenue24.ca/contact', formData);
+      await axios.post('https://avenue24.ca/api/contact', formData);
       alert('Message sent successfully!');
       setFormData({ name: '', email: '', message: '', number: '' });
     } catch (error) {
