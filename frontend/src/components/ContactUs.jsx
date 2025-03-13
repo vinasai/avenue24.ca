@@ -3,7 +3,7 @@ import Footer from './Footer';
 import Header from './Header';
 import axios from 'axios';
 import { FiPhone, FiMail, FiMapPin } from 'react-icons/fi';
-import backImg from "../assets/bg5.jpg"
+import backImg from "../assets/a5.jpg"
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -36,7 +36,7 @@ const ContactUs = () => {
   return (
     <>
       <Header />
-    <section className="bg-cover bg-center flex items-center justify-center"style={{ backgroundImage: `url(${backImg})`, height: '70vh' }}>
+    <section className="bg-cover bg-center flex items-center justify-center"style={{ backgroundImage: `url(${backImg})`, height: '90vh' }}>
         <div className="text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold">"Have Questions? Let's Chat!"</h1>
         </div>

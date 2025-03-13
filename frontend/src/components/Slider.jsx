@@ -5,9 +5,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import bg1 from '../assets/bg5.jpg';
-import bg2 from '../assets/bg4.jpg';
-import bg3 from '../assets/bg3.jpg';
+import bg3 from '../assets/a242.png';
+import bg2 from '../assets/1.png';
+import bg1 from '../assets/a5.jpg';
 
 
 const sliderData = [
@@ -41,8 +41,8 @@ const SliderSection = () => {
       {sliderData.map((slide, index) => (
         <SwiperSlide key={index}>
           <section
-            className="bg-cover bg-center flex items-center justify-center"
-            style={{ backgroundImage: `url(${slide.image})`, height: '90vh' }}
+            className="bg-cover flex items-center justify-center"
+            style={{ backgroundImage: `url(${slide.image})`, height: '100vh' }}
           >
             <div className="text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold">{slide.title}</h1>

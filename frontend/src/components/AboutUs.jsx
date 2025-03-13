@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from './Footer';
 import Header from './Header';
-import backImg from "../assets/bg5.jpg"
+import backImg from "../assets/a5.jpg"
 
 const AboutUs = () => {
   return (
     <>
         <Header/>
-    <section className="bg-cover bg-center flex items-center justify-center"style={{ backgroundImage: `url(${backImg})`, height: '70vh' }}>
+    <section className="bg-cover bg-center flex items-center justify-center"style={{ backgroundImage: `url(${backImg})`, height: '90vh' }}>
         <div className="text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold">"Our Story, Your Success!"</h1>
         </div>

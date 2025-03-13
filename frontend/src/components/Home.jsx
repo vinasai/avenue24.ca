@@ -1,10 +1,10 @@
 import React from 'react'
 import Footer from "./Footer"
 import Header from "./Header"
-import pic1 from "../assets/img1.jpg"
-import pic2 from "../assets/img2.jpg"
-import pic3 from "../assets/img3.jpg"
-import pic4 from "../assets/img4.jpg"
+import pic1 from "../assets/a241.png"
+import pic2 from "../assets/5.jpg"
+import pic3 from "../assets/a243.jpg"
+import pic4 from "../assets/a24.png"
 import Slider from "./Slider"
 import MovingSlider from './MovingSlider'
 
