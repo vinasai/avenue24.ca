@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import pic4 from "../assets/1.jpg";
-import pic2 from "../assets/2.jpg";
+import pic1 from "../assets/02.jpg";
 import pic3 from "../assets/a4.jpg";
-import pic1 from "../assets/a3.jpg";
+import pic2 from "../assets/a3.jpg";
 import pic5 from "../assets/5.jpg"; // Add more images if needed
 
 const MovingSlider = () => {
@@ -38,7 +38,7 @@ const MovingSlider = () => {
   return (
     <div className="max-w-6xl mx-auto px-4">
       <Slider {...settings}>
-        {[pic1, pic2, pic3, pic4, pic5].map((image, index) => (
+        {[pic1,pic4, pic2, pic3, pic5].map((image, index) => (
           <div key={index} className="px-2">
             <img
               src={image}

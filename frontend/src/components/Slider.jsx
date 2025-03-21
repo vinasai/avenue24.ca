@@ -5,7 +5,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import bg3 from '../assets/a242.png';
+import bg3 from '../assets/03.jpg';
 import bg2 from '../assets/1.png';
 import bg1 from '../assets/a5.jpg';
 
@@ -36,7 +36,7 @@ const SliderSection = () => {
       pagination={{ clickable: true }}
       autoplay={{ delay: 4000, disableOnInteraction: false }}
       loop
-      className="w-full h-[90vh]"
+      className="w-full h-[120vh]"
     >
       {sliderData.map((slide, index) => (
         <SwiperSlide key={index}>
