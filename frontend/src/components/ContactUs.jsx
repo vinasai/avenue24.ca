@@ -59,11 +59,11 @@ M1X 2E5, Canada</span>
         </div>
         <div className="flex items-center text-gray-700">
           <FiMail className="h-6 w-6 mr-3 text-gray-600" />
-          <span>ratnamsan@gmail.com</span>
+          <span>studioavenue.24@gmail.com</span>
         </div>
         <div className="flex items-center text-gray-700">
           <FiPhone className="h-6 w-6 mr-3 text-gray-600" />
-          <span>+1 416-459-7519</span>
+          <span>647 291 1987</span>
         </div>
       </div>
     </div>
